@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OG-CloudPcUser</title>
+    <meta charset="utf-8">
+    <link href="css/index.css" type="text/css" rel="stylesheet" /><!--引入CSS-->
+</head>
+<body>
+    <h1>云电脑用户注册</h1>
+    <form action="register.php" method="post">
+        <label for="username">用户名:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">密码:</label>
+        <input type="text" id="password" name="password" required>
+
+        <label for="email">电子邮箱:</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="node">云电脑节点:</label>
+        <select id="node" name="node">
+            <option value="node1">节点1-中国上海</option>
+            <option value="node2">节点2-中国北京</option>
+            <option value="node3">节点3-中国广州</option>
+        </select>
+
+        <input type="submit" value="注册">
+    </form>
+</body>
+</html>
